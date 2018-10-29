@@ -1,0 +1,14 @@
+<%# navigation styled for Bootstrap 4.0 %>
+<div class="container">
+  <nav class="navbar bg-inverse">
+
+    <div class="navbar-toggleable-xs" id="exCollapsingNavbar2">
+  <!--    <%= link_to "Rails bootstrap", root_path, class: 'navbar-brand' %>
+      <ul class="nav navbar-nav">
+        <%= render 'layouts/navigation_links' %>
+      </ul> -->
+      <%= link_to 'New Article', new_article_path %><br/>
+      <%= link_to 'Listing Articles', controller: 'articles' %>
+    </div>
+  </nav>
+</div>
